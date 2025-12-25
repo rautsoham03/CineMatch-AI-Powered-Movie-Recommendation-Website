@@ -52,6 +52,23 @@ High-Level Flow
 
 <img width="678" height="645" alt="image" src="https://github.com/user-attachments/assets/c2d6fbba-b358-4f9f-9c30-fbb87a81a587" />
 
+📊 Dataset
+
+-Source: Curated & cleaned movie metadata
+-File: movie_db_READY_FOR_RECOMMENDER.csv
+Key Columns Used:
+-title
+-overview
+-genres
+-keywords
+-cast
+-director
+-vote_average
+-vote_count
+-original_language
+-poster_url
+This dataset is directly used by the preprocessing and recommendation pipeline.
+
 
 ## ▶️ How to Run the Project
 1️⃣ Install Dependencies
