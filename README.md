@@ -31,7 +31,9 @@ High-Level Flow
 <img width="1904" height="994" alt="Screenshot 2025-12-24 194230" src="https://github.com/user-attachments/assets/3a27f8d5-4b2e-4d95-9e45-7219ed11c643" />
 
 
+
 🏗️ Architecture
+
 1️. Offline Preprocessing
 
 -Cleans and engineers features from movie metadata
