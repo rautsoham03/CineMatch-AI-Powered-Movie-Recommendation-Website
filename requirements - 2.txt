@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+pickle-mixin
+requests
+google-search-results
+streamlit-searchbox
+GROQ_API_KEY = "YOUR GROQ_API_KEY" #
+TMDB_API_KEY = "YOUR TMDB KEY "  #  
