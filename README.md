@@ -46,27 +46,10 @@ High-Level Flow
 -Fetches posters, ratings & trailers from TMDB
 -Renders results using custom HTML/CSS cards
 
-movie-recommendation-website/
-│
-├── app2.py
-│   → Main Streamlit application (UI + AI + recommendations)
-│
-├── preprocess2.py
-│   → Data preprocessing & model building script
-│
-├── recommender.py
-│   → Core recommendation logic
-│
-├── utils/
-│   └── movie_model.pkl
-│       → Saved movie data + cosine similarity matrix
-│
-├── data/
-│   └── movie_db_READY_FOR_RECOMMENDER.csv
-│       → Final cleaned dataset used by the system
-│
-├── requirements.txt
-└── README.md
+📂 Project Structure
+
+<img width="678" height="645" alt="image" src="https://github.com/user-attachments/assets/c2d6fbba-b358-4f9f-9c30-fbb87a81a587" />
+
 
 ## ▶️ How to Run the Project
 1️⃣ Install Dependencies
