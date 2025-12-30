@@ -7,7 +7,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 # 1. Load Data
 # ------------------------------------------------------------------
 # Update path if necessary
-df = pd.read_csv(r"C:\Users\sanke\OneDrive\Desktop\PythonProject\PythonProject\movie_recommendation_website\data\movie_db_READY_FOR_RECOMMENDER.csv", encoding='latin-1')
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "data" / "movie_db_READY_FOR_RECOMMENDER.csv"
+
+df = pd.read_csv(DATA_PATH, encoding="latin-1")
 
 cols = ["title", "overview", "genres", "keywords", "cast", "director",
         "vote_average", "vote_count", "original_language", "poster_url"]
@@ -70,3 +75,4 @@ with open(r"C:\Users\sanke\OneDrive\Desktop\PythonProject\PythonProject\movie_re
     pickle.dump((final_data, cosine_sim), f)
 
 print("✅ Preprocessing Done! Model updated with Title matching.")
+
